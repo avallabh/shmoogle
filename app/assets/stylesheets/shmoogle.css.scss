@@ -29,3 +29,14 @@ body {
 .nav > li > a:hover {
   color: #ffffff;
 }
+
+/* Search */
+.search-container {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 10px; // top/bottom, right/left
+}
+
+.search-form {
+  margin: 0;
+}
