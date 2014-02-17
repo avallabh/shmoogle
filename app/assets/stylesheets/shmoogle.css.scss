@@ -40,3 +40,34 @@ body {
 .search-form {
   margin: 0;
 }
+
+/* Main */
+.main-container {
+  margin-left: 135px;
+  width: 512px;
+}
+
+/* Search Results */
+
+.search-result-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.search-result-list > li {
+  margin-bottom: 30px;
+}
+
+.search-result-title {
+  margin: 0;
+}
+
+.search-result-title a {
+  font-weight: normal;
+}
+
+.search-result-source {
+  display: block;
+  font-style: normal;
+  color: #009933;
+}

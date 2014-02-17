@@ -28,6 +28,7 @@
     </form>
   </div>
   <div class="filters-container">
+    <!--
     <ul>
       <li><a href="#">Web</a></li>
       <li><a href="#">Images</a></li>
@@ -35,9 +36,45 @@
       <li><a href="#">Shopping</a></li>
       <li><a href="#">Search Tools</a></li>
     </ul>
+    -->
   </div>
   <div class="main-container">
-    <%= yield %>
+    <ol class="search-result-list">
+      <li>
+        <div class="search-result">
+          <h3 class="search-result-title">
+            <a href="#">Awesome Fake Result Title</a>
+          </h3>
+          <cite class="search-result-source">
+            www.awesomesauce.com
+          </cite>
+          <span>Something that is more awesome than awesome. It is a modifyer of your basic awesome into a more awesome version.</span>
+        </div>
+      </li>
+      <li>
+        <div class="search-result">
+          <h3 class="search-result-title">
+            <a href="#">Twitter / Search - #REKT</a>
+          </h3>
+          <cite class="search-result-source">
+            https://twitter.com/search?q=#REKT
+          </cite>
+          <span>GET #REKT SCRUB</span>
+        </div>
+      </li>
+      <li>
+        <div class="search-result">
+          <h3 class="search-result-title">
+            <a href="#">Scumbag Rails (ScumbagRails) on Twitter</a>
+          </h3>
+          <cite class="search-result-source">
+            https://twitter.com/scumbagrails
+          </cite>
+          <span>The latest from Scumbag Rails (@ScumbagRails).</span>
+        </div>
+      </li>
+    </ol>
   </div>
+    <%= yield %>
 </body>
 </html>
